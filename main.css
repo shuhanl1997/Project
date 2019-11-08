@@ -1,0 +1,463 @@
+
+.head_info{
+  color:#552C1F;
+
+}
+
+body {
+  font-family: Caviar Dreams;
+  margin-top: -10rem;
+  padding: 10rem;
+  color: #ffffff;
+  background-color: rgb(25,30,34) !important;
+}
+#title{
+  font-family:Quantify;
+  color:#552C1F;
+  text-align: center;
+}
+.element {
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 0px;
+  border-top-width: 3rem;
+  border-top-style: solid;
+  border-top-color: black;
+  color:grey;
+}
+nav{
+  text-align:center;
+}
+
+header nav a{
+  border:1.5px;
+  background-color: black;
+  color: white;
+  border-radius:none;
+  padding:0.5rem;
+  display:inline-block;
+  width:150px;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+section nav a{
+
+  padding:0.5rem;
+  display:inline-block;
+  width:150px;
+  margin-bottom: 0.4rem;
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Quantify Regular;
+  font-size: 35px;
+}
+
+h6 {
+  font-family: Caviar Dreams;
+  font-size: 35px;
+}
+
+h2 {
+  margin-top: 2rem;
+  color:white;
+  margin-top:-2.5rem;
+  text-align: center;
+}
+
+h0 {
+
+  margin-top: 1rem;
+  font-size: 25px;
+
+}
+
+h3 {
+
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: Caviar Dreams;
+  margin-top: 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: lighter;
+  color:white;
+}
+
+p2 {
+  font-family: Caviar Dreams;
+  margin-top: 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: lighter;
+  color:white;
+}
+
+code {
+  background-color: #EBF4F3;
+  padding: 0.5rem;
+  display: block;
+}
+
+.payment{
+  font-family:Caviar Dreams;
+  color:#A77760;
+  font-size:100px;
+}
+#pay-form{
+    font-family:Caviar Dreams;
+    font-weight:bold;
+    color:white;
+    margin-left:6rem;
+}
+.pay_label{
+  margin-left:3rem;
+}
+.cart-item img{
+  margin-left:3.5rem;
+}
+.cart-item label{
+  margin-left:3rem;
+}
+.cart-item p, label{
+  font-family:Caviar Dreams;
+    color:white;
+    font-size:15px;
+}
+
+#nav_one {
+  margin-bottom: 90rem;
+}
+#fonts_type{
+  font-family:helvetica;
+}
+#nav_link{
+  font-family:Caviar Dreams;
+  text-transform: uppercase;
+  border:1.5px solid #555555;
+  border-radius:0px;
+  padding:0rem;
+  display:inline-block;
+  width:180px;
+  margin-bottom: 0.4rem;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left:3rem;
+  cursor:pointer;
+}
+
+#nav_link{
+  color:#A77760;
+}
+#default-but{
+  font-family:Caviar Dreams;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size:12px;
+  padding: 0.5rem;
+  color: white;
+  background-color: black;
+  border-radius:0px;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  margin-left:3rem;
+}
+
+#submit_bu{
+  font-family:Caviar Dreams;
+  text-transform: uppercase;
+  border:1.5px solid #A77760;
+  font-size:12px;
+  color:black;
+  border-radius:0px;
+  padding:0.8rem;
+  display:inline-block;
+  width:100px;
+  margin-bottom: 0.4rem;
+  text-decoration: none;
+  text-align: center;
+  margin-left:3rem;
+  cursor:pointer;
+}
+
+#picone{
+  margin-left:3rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+#picone img{
+  margin-top:0.5rem;
+  margin-bottom: 0.5rem;
+  width: 20%;
+  height:auto;
+}
+
+#style_h2, #style_h3, #style_h4, #style_h5{
+  margin-left:3rem;
+}
+#style_h2{
+  text-align: left;
+}
+.num_lists li{
+  margin-left:3rem;
+  color:white;
+}
+#input_field{
+  margin-left:3rem;
+}
+#radio_one, #radio_two, #radio_three{
+  margin-left:3rem;
+}
+#nav_picture, #payment_form1, #payment_form2, #payment_form3, #pay_label{
+  margin-left:3rem;
+}
+#checkout_cart input, p{
+  margin-left:3rem;
+}
+#consumer li, #entice li{
+  margin-left:3rem;
+}
+#col, #color_platte{
+  margin-left:3rem;
+}
+#imagery{
+  margin-left:3rem;
+}
+#contact_app{
+  margin-left:4rem;
+}
+#chocolate_boxes{
+  margin-left:4rem
+}
+#textlink{
+  text-transform: uppercase;
+  color:#A77760;
+}
+#textlink h4{
+  margin-left:3rem;
+}
+
+#product_info{
+  color:#A77760;
+  margin-left:3.6rem;
+}
+
+#style_h1{
+  font-family:Arial;
+  font-weight:bold;
+}
+#style_h2{
+  font-family:Monaco;
+  font-weight:bold;
+  margin-top:0;
+  color:white;
+  text-transform: uppercase;
+}
+#style_h3{
+  font-family:Monaco;
+  font-weight:bold;
+  margin-top:0;
+  color:#64311E;
+  text-transform: uppercase;
+}
+#style_h4{
+  font-family:Monaco;
+  font-weight:bold;
+  color:#A77760;
+}
+#style_h5{
+  font-family:Monaco;
+  font-weight:bold;
+  color:#555555;
+}
+
+.para{
+  font-size:15px;
+  margin-left:3rem;
+  margin-right:350px;
+  color:#333333;
+}
+.num_lists{
+  font-family: Monaco;
+  color:#64311E;
+  font-weight:bold;
+  font-size:15px;
+}
+#product_list1{
+  font-family:Monaco;
+    color:#A77760;
+    font-size:12px;
+    margin-left:5.5rem;
+}
+#product_list2{
+  font-family:Monaco;
+    color:#A77760;
+    font-size:12px;
+    margin-left:5.5rem;
+}
+#payment_form1{
+  color:#333333;
+}
+#fonts_type1{
+  font-family: Monaco;
+}
+#fonts_type2{
+  font-family: sans-serif;
+}
+#start_nav_bar{
+  margin-top:-25rem;
+  margin-bottom: 25rem;
+}
+#text_input input{
+  border-color:#A77760;
+  border-width:0.1px;
+}
+.payment input{
+  border-color:#A77760;
+  border-width:0.1px;
+}
+#citations{
+  margin-top:3rem;
+}
+#store-name{
+  font-family:Muffin Cake DEMO;
+  text-align:center;
+  margin-top:-7rem;
+  margin-left: 0rem;
+  border-bottom: 10rem;
+  font-size:30px;
+  color:#552C1F;
+}
+#product-background img{
+    margin-left:-5rem;
+    margin-top:-3rem;
+}
+#nav_items{
+  text-align:center;
+}
+#nav_items li{
+  text-decoration:none;
+  display:inline-block;
+  text-align:center;
+  font-family:Caviar Dreams;
+}
+#nav_items li a{
+  text-decoration:none;
+  display:inline-block;
+  margin-right:3rem;
+  color:white;
+  font-family:Caviar Dreams;
+  margin-top:3rem;
+}
+.navbar {
+    background-color: black;
+}
+.navbar .icon-bar{
+    background-color: #dddddd;
+}
+.header p {
+    font-size:15px;
+    color:white;
+}
+.header {
+    font-family: 'Mansalva';
+    background: black;
+    padding-bottom: 10px;
+    border: 1px;
+    text-align: center;
+    background-size: 100%;
+    font-size: 15px;
+}
+.header a {
+    margin-left: 5%;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.header a:hover {
+    color: white;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+#nav_link:hover{
+  color:white;
+  background-color: grey;
+  border:0px solid white;
+}
+#nav_link:focus{
+  color:grey;
+}
+#nav_items li a:hover{
+    color:white;
+    text-decoration: underline overline;
+    text-decoration-style:solid;
+}
+#submit_bu:hover, #submit_bu:focus{
+  border:1.5px solid brown;
+}
+#picone:hover{
+  /*background-color:#BC896E;*/
+  transition-property: background-color;
+  /*transition-duration: 0.5s;*/
+}
+#picone img:hover{
+  transform:scale(1.1);
+}
+#picone:focus{
+  opacity:0.6;
+}
+#textlink:hover{
+  color:#552C1F;
+}
+#product_info:hover{
+  color:grey;
+}
+#product_info:focus{
+  color:grey;
+}
+#default-but:hover, #default-but:focus{
+  background-color:grey;
+}
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  text-align: center;
+  background-color: black;
+  text-decoration: none;
+  border-radius: 0px;
+  border-color: white 1rem;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: grey;
+}
