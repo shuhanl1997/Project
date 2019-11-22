@@ -1458,7 +1458,7 @@ img {
 }
 
 .img-rounded {
-  border-radius: 6px;
+  border-radius: none;
 }
 
 .img-thumbnail {
@@ -2085,6 +2085,7 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 .col-xs-1,
@@ -2139,7 +2140,7 @@ pre code {
 }
 
 .col-xs-3 {
-  width: 25%;
+  width: 33%;
 }
 
 .col-xs-2 {
@@ -3868,8 +3869,8 @@ select[multiple].input-lg {
   -ms-user-select: none;
   user-select: none;
   background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  border: 0px solid transparent;
+
 }
 
 .btn:focus,

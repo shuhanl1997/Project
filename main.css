@@ -365,9 +365,7 @@ code {
 .navbar {
     background-color: black;
 }
-.navbar .icon-bar{
-    background-color: #dddddd;
-}
+
 .header p {
     font-size:15px;
     color:white;
@@ -377,17 +375,34 @@ code {
     background: black;
     padding-bottom: 10px;
     border: 1px;
-    text-align: center;
-    background-size: 100%;
+    text-align: right;
+    padding-right: 60px;
+    background-size: 20%;
     font-size: 15px;
 }
+.header2 {
+  text-decoration: none;
+  color: white;
+
+    font-family: 'Mansalva';
+    background: black;
+    padding-bottom: 10px;
+    border: 1px;
+    text-align: left;
+    padding-right: 450px;
+    background-size: 20%;
+    font-size: 25px;
+}
+
+
 .header a {
     margin-left: 5%;
     font-size: 15px;
     color: white;
-    padding-top: 10px;
     text-decoration: none;
 }
+
+
 .header a:hover {
     color: white;
 }
@@ -450,6 +465,7 @@ nav a:hover, nav a:focus {
   transition-property: background-color;
   transition-duration: 0.5s;
 }
+
 
 .link {
   display: inline-block;
