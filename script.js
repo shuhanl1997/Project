@@ -1,12 +1,4 @@
-/*
- * @Descripttion: 
- * @version: 
- * @Author: WebZhouT
- * @Date: 2019-11-21 15:50:30
- * @LastEditors: WebZhouT
- * @LastEditTime: 2019-11-28 20:40:07
- */
-//background animation
+
 let tl = anime.timeline({
   easing: 'easeOutExpo',
   duration: 850
