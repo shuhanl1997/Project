@@ -34,9 +34,9 @@ h1 {
 .tc {
   text-align: center;
 }
-.navbar-nav > li > a.active {
-  color: white;
-  background-color: grey;
+.navbar-nav .active a {
+  color: #333 !important;
+  background-color: #ddd !important;
 }
 .navbar-nav > li > a {
   font-family: 'f2';
@@ -130,7 +130,7 @@ a {
 .product-side-line {
   width: 60%;
   margin-top: 45px;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 .product-side-line-right {
   margin-left: 40%;
@@ -150,12 +150,12 @@ a {
 }
 .product-side-img-2 {
   position: absolute;
-  top: 360px;
+  top: 300px;
   right: 30px;
 }
 .product-side-img-3 {
   position: absolute;
-  top: 780px;
+  top: 620px;
   left: 60px;
 }
 .index-side-3 {
@@ -310,16 +310,19 @@ a {
 /* @media (min-width: 768px) and (max-width: 991px) { */
 @media (min-width: 1200px) {
   .page1p1 {
-    margin-top: 60px;
+    margin-top: 80px;
   }
   .page1p2 {
-    margin-top: 40px;
+    margin-top: 10px;
   }
   .page1p4 {
-    margin-top: 140px;
+    margin-top: 100px;
   }
   .page1p4 img {
     margin: 10px 0;
+  }
+  .page1png {
+    margin-top: 30px;
   }
   .topcenter {
     position: relative;
@@ -336,7 +339,7 @@ a {
     margin: 10px 0;
   }
   .page2p3 {
-    margin-top: 30px;
+    margin-top: 70px;
   }
   .page2p3 img {
     margin: 10px 0;
@@ -347,10 +350,13 @@ a {
   .page3p1 {
     margin-top: 200px;
   }
+  .page1p5 {
+    margin-top: 10px !important;
+  }
 }
 @media (min-width: 970px) and (max-width: 1199px) {
   .page1p1 {
-    margin-top: 60px;
+    margin-top: 140px;
   }
   .page1p1 > div {
     margin-bottom: 10px;
@@ -372,6 +378,9 @@ a {
   }
   .contact-side-1-title {
     padding-top: 10px;
+  }
+  .page1p5 {
+    margin-top: 20px !important;
   }
 }
 @media (min-width: 750px) and (max-width: 970px) {
@@ -399,10 +408,19 @@ a {
   .contact-side-1-title {
     padding-top: 10px;
   }
+  .page1p5 {
+    margin-top: 20px !important;
+  }
+  .home-side-article p {
+    line-height: 30px;
+  }
 }
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .page1p1 {
-    margin-top: 60px;
+    margin-top: 20px;
   }
   .page1p4 {
     padding-bottom: 20px;
@@ -426,5 +444,25 @@ a {
     position: relative;
     top: 50%;
     transform: translateY(50%);
+  }
+  #example-navbar-collapse {
+    overflow-x: hidden;
+  }
+  #example-navbar-collapse .navbar-nav {
+    display: block;
+    width: 100%;
+  }
+  #example-navbar-collapse .navbar-nav li {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  #example-navbar-collapse .navbar-nav li a {
+    text-align: center;
+  }
+  .page1p5 {
+    margin-top: 20px !important;
+  }
+  .home-side-article p {
+    line-height: 30px;
   }
 }

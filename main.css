@@ -24,6 +24,17 @@ body {
   border-top-style: solid;
   border-top-color: black;
   color:grey;
+  text-decoration: none;
+}
+
+.shadowfilter {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+}.shadowfilter:hover {
+	-webkit-filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.8));
 }
 nav{
   text-align:center;
@@ -53,7 +64,7 @@ section nav a{
 }
 
 h1 {
-  font-family: Quantify Regular;
+  font-family: Caviar Dreams;
   font-size: 35px;
 }
 
@@ -63,7 +74,6 @@ h6 {
 }
 
 h2 {
-  margin-top: 2rem;
   color:white;
   margin-top:-2.5rem;
   text-align: center;
@@ -77,7 +87,6 @@ h0 {
 }
 
 h3 {
-
   margin-top: 1rem;
 }
 
@@ -110,31 +119,6 @@ code {
   display: block;
 }
 
-.payment{
-  font-family:Caviar Dreams;
-  color:#A77760;
-  font-size:100px;
-}
-#pay-form{
-    font-family:Caviar Dreams;
-    font-weight:bold;
-    color:white;
-    margin-left:6rem;
-}
-.pay_label{
-  margin-left:3rem;
-}
-.cart-item img{
-  margin-left:3.5rem;
-}
-.cart-item label{
-  margin-left:3rem;
-}
-.cart-item p, label{
-  font-family:Caviar Dreams;
-    color:white;
-    font-size:15px;
-}
 
 #nav_one {
   margin-bottom: 90rem;
@@ -142,25 +126,8 @@ code {
 #fonts_type{
   font-family:helvetica;
 }
-#nav_link{
-  font-family:Caviar Dreams;
-  text-transform: uppercase;
-  border:1.5px solid #555555;
-  border-radius:0px;
-  padding:0rem;
-  display:inline-block;
-  width:180px;
-  margin-bottom: 0.4rem;
-  text-decoration: none;
-  text-align: center;
-  margin-top: 1rem;
-  margin-left:3rem;
-  cursor:pointer;
-}
 
-#nav_link{
-  color:#A77760;
-}
+
 #default-but{
   font-family:Caviar Dreams;
   display: inline-block;
@@ -176,38 +143,18 @@ code {
   margin-left:3rem;
 }
 
-#submit_bu{
-  font-family:Caviar Dreams;
-  text-transform: uppercase;
-  border:1.5px solid #A77760;
-  font-size:12px;
-  color:black;
-  border-radius:0px;
-  padding:0.8rem;
-  display:inline-block;
-  width:100px;
-  margin-bottom: 0.4rem;
-  text-decoration: none;
-  text-align: center;
-  margin-left:3rem;
-  cursor:pointer;
-}
-
 #picone{
-  margin-left:3rem;
+  margin-left:none;
   margin-bottom: 2rem;
-  display: block;
+  display: inline-block;
 }
 #picone img{
   margin-top:0.5rem;
   margin-bottom: 0.5rem;
-  width: 20%;
+  width: 30%;
   height:auto;
 }
 
-#style_h2, #style_h3, #style_h4, #style_h5{
-  margin-left:3rem;
-}
 #style_h2{
   text-align: left;
 }
@@ -215,73 +162,13 @@ code {
   margin-left:3rem;
   color:white;
 }
-#input_field{
-  margin-left:3rem;
-}
-#radio_one, #radio_two, #radio_three{
-  margin-left:3rem;
-}
-#nav_picture, #payment_form1, #payment_form2, #payment_form3, #pay_label{
-  margin-left:3rem;
-}
-#checkout_cart input, p{
-  margin-left:3rem;
-}
-#consumer li, #entice li{
-  margin-left:3rem;
-}
-#col, #color_platte{
-  margin-left:3rem;
-}
-#imagery{
-  margin-left:3rem;
-}
-#contact_app{
-  margin-left:4rem;
-}
-#chocolate_boxes{
-  margin-left:4rem
-}
+
 #textlink{
   text-transform: uppercase;
   color:#A77760;
 }
 #textlink h4{
   margin-left:3rem;
-}
-
-#product_info{
-  color:#A77760;
-  margin-left:3.6rem;
-}
-
-#style_h1{
-  font-family:Arial;
-  font-weight:bold;
-}
-#style_h2{
-  font-family:Monaco;
-  font-weight:bold;
-  margin-top:0;
-  color:white;
-  text-transform: uppercase;
-}
-#style_h3{
-  font-family:Monaco;
-  font-weight:bold;
-  margin-top:0;
-  color:#64311E;
-  text-transform: uppercase;
-}
-#style_h4{
-  font-family:Monaco;
-  font-weight:bold;
-  color:#A77760;
-}
-#style_h5{
-  font-family:Monaco;
-  font-weight:bold;
-  color:#555555;
 }
 
 .para{
@@ -296,72 +183,29 @@ code {
   font-weight:bold;
   font-size:15px;
 }
-#product_list1{
-  font-family:Monaco;
-    color:#A77760;
-    font-size:12px;
-    margin-left:5.5rem;
-}
-#product_list2{
-  font-family:Monaco;
-    color:#A77760;
-    font-size:12px;
-    margin-left:5.5rem;
-}
-#payment_form1{
-  color:#333333;
-}
-#fonts_type1{
-  font-family: Monaco;
-}
-#fonts_type2{
-  font-family: sans-serif;
-}
+
 #start_nav_bar{
   margin-top:-25rem;
   margin-bottom: 25rem;
 }
-#text_input input{
-  border-color:#A77760;
-  border-width:0.1px;
-}
-.payment input{
-  border-color:#A77760;
-  border-width:0.1px;
-}
+
 #citations{
   margin-top:3rem;
 }
 #store-name{
-  font-family:Muffin Cake DEMO;
+  font-family:Caviar Dreams;
   text-align:center;
-  margin-top:-7rem;
+  margin-top:0rem;
   margin-left: 0rem;
   border-bottom: 10rem;
   font-size:30px;
-  color:#552C1F;
+  color:white;
 }
 #product-background img{
     margin-left:-5rem;
     margin-top:-3rem;
 }
-#nav_items{
-  text-align:center;
-}
-#nav_items li{
-  text-decoration:none;
-  display:inline-block;
-  text-align:center;
-  font-family:Caviar Dreams;
-}
-#nav_items li a{
-  text-decoration:none;
-  display:inline-block;
-  margin-right:3rem;
-  color:white;
-  font-family:Caviar Dreams;
-  margin-top:3rem;
-}
+
 .navbar {
     background-color: black;
 }
@@ -383,7 +227,6 @@ code {
 .header2 {
   text-decoration: none;
   color: white;
-
     font-family: 'Mansalva';
     background: black;
     padding-bottom: 10px;
@@ -404,7 +247,7 @@ code {
 
 
 .header a:hover {
-    color: white;
+    color: grey;
 }
 
 
@@ -419,28 +262,19 @@ nav a:hover, nav a:focus {
   background-color: grey;
   border:0px solid white;
 }
+
 #nav_link:focus{
   color:grey;
 }
 #nav_items li a:hover{
     color:white;
-    text-decoration: underline overline;
+    text-decoration: none;
     text-decoration-style:solid;
 }
 #submit_bu:hover, #submit_bu:focus{
   border:1.5px solid brown;
 }
-#picone:hover{
-  /*background-color:#BC896E;*/
-  transition-property: background-color;
-  /*transition-duration: 0.5s;*/
-}
-#picone img:hover{
-  transform:scale(1.1);
-}
-#picone:focus{
-  opacity:0.6;
-}
+
 #textlink:hover{
   color:#552C1F;
 }
@@ -455,7 +289,7 @@ nav a:hover, nav a:focus {
 }
 .button-nav {
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.9rem;
   color: white;
   text-align: center;
   background-color: black;
@@ -465,7 +299,6 @@ nav a:hover, nav a:focus {
   transition-property: background-color;
   transition-duration: 0.5s;
 }
-
 
 .link {
   display: inline-block;

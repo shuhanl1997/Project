@@ -4,7 +4,7 @@
  * @Author: WebZhouT
  * @Date: 2019-11-21 15:50:30
  * @LastEditors: WebZhouT
- * @LastEditTime: 2019-11-21 15:52:43
+ * @LastEditTime: 2019-11-28 20:40:07
  */
 //background animation
 let tl = anime.timeline({
@@ -15,7 +15,7 @@ let tl = anime.timeline({
 tl.add({
   targets: 'section .item',
   width: '100%',
-  backgroundColor: '#F6A9BD',
+  backgroundColor: '#333',
   delay: anime.stagger(100)
 });
 
@@ -23,7 +23,7 @@ tl.add({
   targets: 'section .item',
   delay: anime.stagger(70),
   width: '97%',
-  backgroundColor: '#F4E0E1'
+  backgroundColor: '#ccc'
 });
 
 tl.add({

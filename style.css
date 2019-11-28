@@ -20,7 +20,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   z-index: 3;
-  color: #F6A9BD;
+  color: rgb(19, 17, 17);
 }
 
 .effect1 .letter {
@@ -33,7 +33,7 @@ p {
   font-size: 1.8em;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #F0386B;
+  color: #ccc;
   font-weight: 100;
   top: 50%;
   z-index: 3;
@@ -47,7 +47,10 @@ section {
 }
 
 .item {
-  background-color: #F4E0E1;
+  background-color: #ccc;
   height: 100vh;
   z-index: 0;
+}
+body,html{
+  background: #f4f4f4;
 }
